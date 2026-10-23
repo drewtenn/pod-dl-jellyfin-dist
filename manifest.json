@@ -6,7 +6,16 @@
         "overview": "Your downloaded podcasts",
         "owner": "pod-dl",
         "category": "General",
+        "imageUrl": "",
         "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial standalone audio archive support. Video support is planned for v2.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v1.0.0.0/pod-dl-jellyfin-1.0.0.0.zip",
+                "checksum": "c1336da43987fbe50dd80d39633e12ab",
+                "timestamp": "2026-10-23T19:19:19Z"
+            },
             {
                 "version": "0.0.0.1",
                 "changelog": "Initial standalone audio archive support. Video support is planned for v2.",
@@ -15,7 +24,6 @@
                 "checksum": "7d4b5c15eb1fbdddceccdf410c6b2119",
                 "timestamp": "2026-10-23T18:54:28Z"
             }
-        ],
-        "imageUrl": ""
+        ]
     }
 ]
