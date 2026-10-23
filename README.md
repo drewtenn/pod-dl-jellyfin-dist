@@ -5,8 +5,8 @@ Requires **Jellyfin 12.2 / .NET 10**. It does not require Aurelia or Companion.
 Video podcasts are planned for v2.
 
 This repository hosts public release packages and Jellyfin's plugin catalog.
-No release is published yet; the catalog will offer an installable version after
-the first release succeeds.
+[v0.0.0.1](https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/tag/v0.0.0.1)
+is available through the catalog below.
 
 ## Install through Jellyfin
 
@@ -16,7 +16,7 @@ Add this URL under **Dashboard → Plugins → Repositories → Add**:
 https://raw.githubusercontent.com/drewtenn/pod-dl-jellyfin-dist/main/manifest.json
 ```
 
-Once a release is available, install **pod-dl Podcasts** from the plugin catalog
+Install **pod-dl Podcasts** from the plugin catalog
 and restart Jellyfin. In the plugin settings, set **Podcast output directory** to
 the pod-dl archive path visible to Jellyfin. The archive must include a schema 1
 `.pod-dl/catalog.json`; generate it with `pod-dl catalog --output-directory <root>`
