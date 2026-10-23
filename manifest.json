@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "guid": "afad29f7-d549-43ef-8fa8-aab9951fb26c",
+        "name": "pod-dl Podcasts",
+        "description": "Browse and play downloaded pod-dl audio podcasts through Jellyfin. A standalone audio-only plugin; no Aurelia or Companion installation is required.",
+        "overview": "Your downloaded podcasts",
+        "owner": "pod-dl",
+        "category": "General",
+        "versions": [
+            {
+                "version": "0.0.0.1",
+                "changelog": "Initial standalone audio archive support. Video support is planned for v2.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v0.0.0.1/pod-dl-jellyfin-0.0.0.1.zip",
+                "checksum": "7d4b5c15eb1fbdddceccdf410c6b2119",
+                "timestamp": "2026-10-23T18:54:28Z"
+            }
+        ],
+        "imageUrl": ""
+    }
+]
