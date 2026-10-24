@@ -2,12 +2,20 @@
     {
         "guid": "afad29f7-d549-43ef-8fa8-aab9951fb26c",
         "name": "pod-dl Podcasts",
-        "description": "Download podcasts on a Jellyfin schedule from one pod-dl config file and index completed MP3s in native Shows libraries.",
+        "description": "Edit standalone pod-dl library destinations and download options, sync on a Jellyfin schedule, and index completed MP3s in native Shows libraries.",
         "overview": "Your downloaded podcasts",
         "owner": "pod-dl",
         "category": "General",
         "imageUrl": "",
         "versions": [
+            {
+                "version": "1.2.0.2",
+                "changelog": "Edit each YAML library's destination folder, audio/video format, parallel download limit and default episode selection in plugin settings. Preserves standalone pod-dl compatibility and detects concurrent file edits.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v1.2.0.2/pod-dl-jellyfin-1.2.0.2.zip",
+                "checksum": "79ece06cb72b4a382a0cf45397b135dd",
+                "timestamp": "2026-10-24T03:49:43Z"
+            },
             {
                 "version": "1.2.0.1",
                 "changelog": "Bundles the current pod-dl plain-text metadata fix with configurable scheduled sync and one YAML configuration path.",
