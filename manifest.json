@@ -2,12 +2,20 @@
     {
         "guid": "afad29f7-d549-43ef-8fa8-aab9951fb26c",
         "name": "pod-dl Podcasts",
-        "description": "Index completed pod-dl MP3 podcasts in a native Jellyfin Shows library. No Aurelia, Companion, channel, or Jellyfin modifications required.",
+        "description": "Download podcasts on a Jellyfin schedule from one pod-dl config file and index completed MP3s in native Shows libraries.",
         "overview": "Your downloaded podcasts",
         "owner": "pod-dl",
         "category": "General",
         "imageUrl": "",
         "versions": [
+            {
+                "version": "1.2.0.0",
+                "changelog": "Bundles pod-dl, adds a configurable Jellyfin scheduled sync task, and uses one YAML config path for all downloader settings and audio library directories.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v1.2.0.0/pod-dl-jellyfin-1.2.0.0.zip",
+                "checksum": "f5a519579f397263e5af50bb11bdf82c",
+                "timestamp": "2026-10-24T02:13:14Z"
+            },
             {
                 "version": "1.1.0.2",
                 "changelog": "Native MP3 Podcasts library support, catalog metadata and library permissions. Removes the duplicate podcast channel.",
