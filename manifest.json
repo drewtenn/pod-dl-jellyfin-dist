@@ -2,12 +2,20 @@
     {
         "guid": "afad29f7-d549-43ef-8fa8-aab9951fb26c",
         "name": "pod-dl Podcasts",
-        "description": "Download podcasts on a Jellyfin schedule, index MP3s in native Shows libraries, and publish commercial segments from a local analyzer for client-controlled skipping.",
+        "description": "Download podcasts on a Jellyfin schedule as fast-start AAC M4A, publisher-original audio, or artwork video, and index completed episodes in native Shows libraries.",
         "overview": "Your downloaded podcasts",
         "owner": "pod-dl",
         "category": "General",
         "imageUrl": "",
         "versions": [
+            {
+                "version": "1.6.0.1",
+                "changelog": "Audio now produces AAC-LC M4A with fast-start metadata. Sync also converts existing completed recordings, including old artwork videos outside the download window, while preserving replaced sources privately. Original audio retains publisher-format downloads. Native Shows libraries support M4A and mixed conversion catalogs.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v1.6.0.1/pod-dl-jellyfin-1.6.0.1.zip",
+                "checksum": "e085ef42529470a4dc9ff9a4d7b0e464",
+                "timestamp": "2026-10-26T22:57:49Z"
+            },
             {
                 "version": "1.5.0.1",
                 "changelog": "Simplify plugin settings: manage storage internally, load podcast libraries automatically, and derive commercial analysis paths from configured libraries. Explain missing destination setup and offer retries after loading errors.",
