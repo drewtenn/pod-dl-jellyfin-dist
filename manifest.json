@@ -2,12 +2,20 @@
     {
         "guid": "afad29f7-d549-43ef-8fa8-aab9951fb26c",
         "name": "pod-dl Podcasts",
-        "description": "Edit standalone pod-dl library destinations and download options, sync on a Jellyfin schedule, and index completed MP3s in native Shows libraries.",
+        "description": "Download podcasts on a Jellyfin schedule, index MP3s in native Shows libraries, and publish commercial segments from a local analyzer for client-controlled skipping.",
         "overview": "Your downloaded podcasts",
         "owner": "pod-dl",
         "category": "General",
         "imageUrl": "",
         "versions": [
+            {
+                "version": "1.5.0.0",
+                "changelog": "Store podcast libraries, feeds and account claims as normalized SQLite rows. Accept durable queued API writes immediately, serve independent WAL reads, and let the bundled downloader read SQLite or YAML. Preserve commercial analysis and existing media.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v1.5.0.0/pod-dl-jellyfin-1.5.0.0.zip",
+                "checksum": "40a1bcb20cec9fd4e08feb2c0bbdf1c3",
+                "timestamp": "2026-10-26T11:41:55Z"
+            },
             {
                 "version": "1.3.0.5",
                 "changelog": "Expose authenticated podcast library presentation metadata so clients can use square cards for dedicated podcast libraries while retaining native Shows navigation and playback. Respect library access and revocation, exclude mixed libraries, and retain the bundled artwork-complete downloader.",
