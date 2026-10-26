@@ -9,6 +9,14 @@
         "imageUrl": "",
         "versions": [
             {
+                "version": "1.5.0.1",
+                "changelog": "Simplify plugin settings: manage storage internally, load podcast libraries automatically, and derive commercial analysis paths from configured libraries. Explain missing destination setup and offer retries after loading errors.",
+                "targetAbi": "12.2.0.0",
+                "sourceUrl": "https://github.com/drewtenn/pod-dl-jellyfin-dist/releases/download/v1.5.0.1/pod-dl-jellyfin-1.5.0.1.zip",
+                "checksum": "d5416a635c8b8bcee88b07f9439a6e40",
+                "timestamp": "2026-10-26T12:44:12Z"
+            },
+            {
                 "version": "1.5.0.0",
                 "changelog": "Store podcast libraries, feeds and account claims as normalized SQLite rows. Accept durable queued API writes immediately, serve independent WAL reads, and let the bundled downloader read SQLite or YAML. Preserve commercial analysis and existing media.",
                 "targetAbi": "12.2.0.0",
